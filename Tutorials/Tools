@@ -2,13 +2,15 @@
 The tools in FM+ encompass various functionalities essential for analysis, such as the Investigation View, as well as administrative tools like Cell Plan, Exception List, and Data Feeds.
 
 ## Investigation View
-<span style="color: red;">This text is red</span>
-1. Go to the Assure Fintech portal and log in to your account
-2. Go to Tools > Transaction Browser page
-3. A preview of the most recent transaction logs will be displayed by default
-4. To filter *Transaction Type* use the drop down menu
-5. To filter by *Wallet ID* enter the Wallet ID number in the corresponding text box
-6. To filter by *Transaction ID* enter the Transaction ID in the corresponding text box
-7. To filter by Transaction *Min Amount* or *Max Amount* enter the value in the corresponding text box
-8. Use the *Date Picker* to filter by the transaction event date
-9. Use the *Download CSV* button to export the filtered search
+
+1. Go to FM+  portal and log in to your account
+2. Go to Tools > Investigation View page
+3. Select Module *SIM Box* or *SMS Blaster*
+
+
+## Cell Plan
+
+## Exception List
+
+
+## Data Feed
