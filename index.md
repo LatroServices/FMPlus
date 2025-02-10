@@ -2,8 +2,7 @@
 Welcome to FM+ web app documentation. 
 
 ## About FM+
-FM+ is LATRO's newest DEFEND technology that includes Bypass Shield among other teleco fraud use
-cases like SMS Blaster.
+FM+ is LATRO's latest DEFEND technology, featuring Bypass Shield and advanced fraud prevention capabilities, including Chain Rules and machine learning models.
 
 ## Documentation Overview
 This documentation is intened to be used by the FM+ web app users to serve as a guide for the different pages and functional features. The documentation includes:
