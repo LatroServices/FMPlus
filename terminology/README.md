@@ -1,6 +1,6 @@
 *This Page is UNDER CONSTRUCTION*
 
-# AFM+ Terminology
+# FM+ Terminology
 This section decribes definitions for terminology used across the FM+ system. 
 
 | Term | Definition |
