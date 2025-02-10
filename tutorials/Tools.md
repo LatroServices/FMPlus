@@ -18,8 +18,9 @@ The Investigation View allows you to analyze and investigate activities for SIM 
 
 ## Cell Plan
 
-## Exception List
+1. Click on *Download Cell plan* to download cell plan in current use in system.
+2. Click on *upload Cell plan* to upload a new cell plan.
 
 ## Data Feed
 
-Coming Soon
+*Coming Soon*
