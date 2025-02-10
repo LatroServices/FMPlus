@@ -18,7 +18,7 @@ The FM+ module includes a range of functionalities, some of which are linked to 
 
 ## Rule summary
 
-In (./tutorials/RuleSummary.md) page you'll be able to create different type of rules (Basic, MultiSource and Chain rules). 
+In (../tutorials/RuleSummary.md) page you'll be able to create different type of rules (Basic, MultiSource and Chain rules). 
 
 ## ML Reports
 
