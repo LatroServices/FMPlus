@@ -22,10 +22,14 @@ in (./RuleSummary.md) page you'll be able to create different type of rules (Bas
 
 ## ML Reports
 
+1. Go to the FM+ portal and log in to your account.
+2. Go to SIM Box Module > ML Reports page.
+3. Choose desirable *Date range* and all tiles and graphs in this page will change accordingly.
 
 ## Detection Downloader
 
 There are two methods of access the detections page. 
+
  Method 1:
 -      Go to Rule Summary > choose a Rule and click *View Detections* button
   Method 2:
