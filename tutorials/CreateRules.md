@@ -12,3 +12,6 @@
 10. Apply the *AND* or *OR* statement by using the main drop-down.
 11. To add in multiple data sources, use the *+ ADD SOURCE* button.
 12. To save the rule, use the *+ADD* button in the upper right corner of the page.
+
+
+---
