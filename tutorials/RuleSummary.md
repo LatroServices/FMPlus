@@ -12,7 +12,7 @@
 ---
 
 ## Introduction
-FM+ allows users to create and manage rules under the **Rule Engine** module. Users can define three types of rules: **Basic Rules**, **Multi-Source Rules**, and **Chain Rules**. These rules help detect fraud and improve monitoring capabilities.
+FM+ allows users to create and manage rules under the **Rule Engine** module. Users can define three types of rules: **Basic Rules**, **Multi-Source Rules**, and **Chain Rules**. 
 
 ---
 
