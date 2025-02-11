@@ -5,7 +5,7 @@ The tools in FM+ encompass various functionalities essential for analysis, such 
 
 The Investigation View allows you to analyze and investigate activities for SIM Box events. Follow these steps to use this tool:
 
-1. Go to the Assure Fintech portal and log in to your account
+1. Go to the FM+ portal and log in to your account
 2.  Go to Tools > Investigation View.
 3.  select SIM BOX module
 4.  enter *IMSI* or *MSISDN*
