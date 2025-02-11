@@ -103,8 +103,8 @@ To save the rule, click **+ADD** (top-right corner).
 ---
 
 ## Detection Downloader
-To download detections from rules:
-- Navigate to the **Detection Downloader** section and select the required rules for download.
+To download detections from rules check:
+[Detection Downloader](../tutorials/DetectionDownloader.md)
 
 ---
 
