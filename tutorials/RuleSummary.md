@@ -1,92 +1,114 @@
-# Create Rules
-In FM+ under rule engine you'll be able to create 3 types of rules:
+# Create Rules in FM+
 
-## BASIC Rules
+## Table of Contents
+- [Introduction](#introduction)
+- [Basic Rules](#basic-rules)
+- [Multi-Source Rules](#multi-source-rules)
+- [Chain Rules](#chain-rules)
+- [Viewing & Editing Existing Rules](#viewing--editing-existing-rules)
+- [Detection Downloader](#detection-downloader)
+- [Rules Reporting](#rules-reporting)
 
-1. Go to the FM+ portal and log in to your account
-2. Go to SIM Box Module > Rule Summery page
-3. On the *Rule Summery page*, select the *Basic Rules* tab
-4. Click on *Create Rule* button.
-5. Enter a Rule Name
-6. Select the rule *Window* , window = The aggregation period in which the rule conditions will be applied to the selected data source."
-7. Select the *Source*
-8. Add new conditions by selecting *+RULE*
-9. Group condition statements by selecting *+GROUP*
-10. Apply the *AND* or *OR* statement by using the main drop-down.
-11. Click on *Off-Net Rules* toggle if you want to create an Off-Net rule.
-12. Click on *include in infection rate calculation* toggle if you want to include the rule in infection rate calculation.
-13. To save the rule, use the *+ADD* button in the upper right corner of the page.
+---
 
-## Multi Source Rules
+## Introduction
+FM+ allows users to create and manage rules under the **Rule Engine** module. Users can define three types of rules: **Basic Rules**, **Multi-Source Rules**, and **Chain Rules**. These rules help detect fraud and improve monitoring capabilities.
 
-1. Go to the FM+ portal and log in to your account
-2. Go to SIM Box Module > Rule Summery page
-3. On the *Rule Summery page*, select the *Multi Source Rules* tab
-4. click on *Create Rule* button.
-5. Enter a Rule Name
-6. Select the rule *Window* , window = The aggregation period in which the rule conditions will be applied to the selected data source."
-7. Select the *Source*
-8. Add new conditions by selecting *+RULE*
-9. Group condition statements by selecting *+GROUP*
-10. Apply the *AND* or *OR* statement by using the main drop-down.
-11. Add in second data sources, using *+ ADD SOURCE* button.
-12. Click on *include in infection rate calculation* toggle if you want to include the rule in infection rate calculation.
-13. To save the rule, use the *+ADD* button in the upper right corner of the page.
-    
+---
+
+## Basic Rules
+1. Log in to the **FM+ portal**.
+2. Navigate to **SIM Box Module > Rule Summary**.
+3. Select the **Basic Rules** tab.
+4. Click on **Create Rule**.
+5. Enter a **Rule Name**.
+6. Select the **Rule Window** (aggregation period for rule conditions).
+7. Choose the **Source**.
+8. Add new conditions by clicking **+RULE**.
+9. Group condition statements using **+GROUP**.
+10. Apply **AND/OR** conditions using the main dropdown.
+11. Enable **Off-Net Rules** if required.
+12. Toggle **Include in Infection Rate Calculation** if needed.
+13. Click **+ADD** (top-right corner) to save the rule.
+
+---
+
+## Multi-Source Rules
+1. Log in to **FM+ portal**.
+2. Navigate to **SIM Box Module > Rule Summary**.
+3. Select the **Multi-Source Rules** tab.
+4. Click on **Create Rule**.
+5. Enter a **Rule Name**.
+6. Select the **Rule Window**.
+7. Choose the **Source**.
+8. Add conditions using **+RULE**.
+9. Group conditions with **+GROUP**.
+10. Apply **AND/OR** logic.
+11. Add a **Second Data Source** using **+ ADD SOURCE**.
+12. Toggle **Include in Infection Rate Calculation** if required.
+13. Click **+ADD** to save the rule.
+
+---
+
 ## Chain Rules
+### Creating a Chain Rule
+1. Log in to **FM+ portal**.
+2. Navigate to **SIM Box Module > Rule Summary**.
+3. Select the **Chain Rules** tab.
+4. Click on **Create Rule**.
+5. Enter a **Rule Name**.
+6. Select a **Chain Rule Category**:
 
-1. Go to the FM+ portal and log in to your account
-2. Go to SIM Box Module > Rule Summery page
-3. On the *Rule Summery page*, select the *Chain Rules* tab
-4. Click on *Create Rule* button.
-5. Enter a Rule Name
-6. Select the  *Chain Rule Category*
+#### **Infection Rate for Vouchers**
+7. Choose **Rule Name**.
+8. Set **Threshold** using operators (>=, >, <, <=) and a value.
+9. Click **Add Conditions**.
 
-+ *Infection Rate for Vouchers*
-7. Choose *Rule name*
-8. Input *threshold * >=,>=,<,> *value*
-9. Choose *Rule name*
-10.Click on *Add conditions* button to add conditions.
-  
-+ *Voucher Batch*
-11. Choose *Rule name*
-12. Input *Voucher Block Size * +,- *value*
-13. Choose input source *FM Rules* or *Client detections*.
-14. If you chose *FM Rules* select rules from *Inout Source* drop down list.
-15. Click on *Add conditions* button to add conditions.
-  
-+ *IMSI Batch*
-16. Choose *Rule name*
-17. Input *IMSI Block Size * +,- *value*
-18. Choose input source *FM Rules* or *Client detections*.
-19. If you chose *FM Rules* select rules from *Inout Source* drop down list.
-20. Click on *Add conditions* button to add conditions.
-  
-+ *Shared IMEI*
-21. Choose *Rule name*
-22. Input *IMSIs to IMEIs * >=,>=,<,> *value*
-23. Choose input source *FM Rules* or *Client detections*.
-24. Click on *Add conditions* button to add conditions.
-  
-+ *Chain Rule for Refining Suspects*
-25. Choose *Rule name*
-26. Choose input source *FM Rules* or *Client detections*.
-27. Click on *Add conditions* button to add conditions.
+#### **Voucher Batch**
+10. Choose **Rule Name**.
+11. Set **Voucher Block Size** (+ or - value).
+12. Select input source (**FM Rules** or **Client Detections**).
+13. If **FM Rules** is selected, choose from the **Input Source** dropdown.
+14. Click **Add Conditions**.
 
-  
-To save the rule, use the *+ADD* button in the upper right corner of the page.
+#### **IMSI Batch**
+15. Choose **Rule Name**.
+16. Set **IMSI Block Size** (+ or - value).
+17. Select input source (**FM Rules** or **Client Detections**).
+18. If **FM Rules** is selected, choose from the **Input Source** dropdown.
+19. Click **Add Conditions**.
 
-# Viewing & Editing Existing Rules
-1. Go to SIM Box Module > Rule summary to view a complete list of all existing rules on the system.
-2. Click on desired tab.
-3. Click on an existing rule to view the configuration details.
-4. Once viewing an existing rules config details you can directly make any updates to the rule.
-5. To save the changes, use the *UPDATE* button inn the uppoer right corner of the page. 
+#### **Shared IMEI**
+20. Choose **Rule Name**.
+21. Set **IMSIs to IMEIs Ratio** (>=, >, <, <= value).
+22. Select input source (**FM Rules** or **Client Detections**).
+23. Click **Add Conditions**.
+
+#### **Chain Rule for Refining Suspects**
+24. Choose **Rule Name**.
+25. Select input source (**FM Rules** or **Client Detections**).
+26. Click **Add Conditions**.
+
+To save the rule, click **+ADD** (top-right corner).
+
+---
+
+## Viewing & Editing Existing Rules
+1. Navigate to **SIM Box Module > Rule Summary**.
+2. Select the desired rule type tab.
+3. Click on an existing rule to view its configuration.
+4. Modify the rule as needed.
+5. Click **UPDATE** (top-right corner) to save changes.
+
+---
 
 ## Detection Downloader
+To download detections from rules:
+- Navigate to the **Detection Downloader** section and select the required rules for download.
 
-to download detections from rules go to 
+---
 
 ## Rules Reporting
+To enable reporting for any rule:
+- Toggle the **Reporting** option next to the rule in the **Rule Summary** page.
 
-To enable any rule for reporting click on the toggle next to it from "Rule Summery" page.
