@@ -20,7 +20,7 @@ The Admin pages primarily enable creation of new user accounts, assigning role b
 
 ## Account Groups
 ### Creating New Account Groups
-1.  Go to the Assure Fintech portal and log in to your account
+1.  Go to the FM+ portal and log in to your account
 2.  Go to Admin > Account Groups
 3.  Click the *Add Group* button at the bottom of the screen
 4.  Type the desired *Group Name*
