@@ -1,6 +1,6 @@
 ## Detection Downloader
 
-There are two methods of access the detections page. 
+There are two methods to access detections page. 
 
  Method 1:
 -      Go to Rule Summary > choose a Rule and click *View Detections* button
