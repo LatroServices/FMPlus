@@ -1,23 +1,23 @@
-# Create Rules in FM+
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Basic Rules](#basic-rules)
-- [Multi-Source Rules](#multi-source-rules)
-- [Chain Rules](#chain-rules)
-- [Viewing & Editing Existing Rules](#viewing--editing-existing-rules)
-- [Detection Downloader](#detection-downloader)
-- [Rules Reporting](#rules-reporting)
+# Rule Summary
+FM+ allows users to create and manage rules under the *SIM Box Module*, where users have access to different types of rules: 
+1. *Basic Rules*
+2. *Multi-Source Rules*
+3. *Chain Rules*
+4. *Machine Learning Rules*
 
 ---
 
-## Introduction
-FM+ allows users to create and manage rules under the **Rule Engine** module. Users can define three types of rules: **Basic Rules**, **Multi-Source Rules**, and **Chain Rules**. 
+## Viewing & Editing Existing Rules
+1. Log in to the **FM+ portal**
+2. Navigate to **SIM Box Module > Rule Summary**.
+3. Select the desired rule type tab.
+4. Click on an existing rule to view its configuration.
+5. Modify the rule as needed.
+6. Click **UPDATE** (top-right corner) to save changes.
 
----
 
 ## Basic Rules
-1. Log in to the **FM+ portal**.
+1. Login to the **FM+ portal**.
 2. Navigate to **SIM Box Module > Rule Summary**.
 3. Select the **Basic Rules** tab.
 4. Click on **Create Rule**.
@@ -93,14 +93,6 @@ To save the rule, click **+ADD** (top-right corner).
 
 ---
 
-## Viewing & Editing Existing Rules
-1. Navigate to **SIM Box Module > Rule Summary**.
-2. Select the desired rule type tab.
-3. Click on an existing rule to view its configuration.
-4. Modify the rule as needed.
-5. Click **UPDATE** (top-right corner) to save changes.
-
----
 
 ## Detection Downloader
 To download detections from rules check:
