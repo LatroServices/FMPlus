@@ -12,3 +12,8 @@ The Investigation View allows you to analyze and investigate activities for SIM 
 8. Click on **`Download Raw xDRs`** to download the IMSI or MSISDN raw CDRs for the specific date range chosen.
 9. Click on **`DOWNLOAD CSV`** to download the list of cells along with their count of activity for the specified IMSI or MSISDN.
 
+
+
+
+
+---
