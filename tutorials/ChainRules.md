@@ -2,7 +2,7 @@
 ## Viewing & Editing Existing Rules
 1. Log in to the **FM+ portal**
 2. Navigate to **SIM Box Module > Rule Summary**.
-3. Select **Multi Source Rules** tab.
+3. Select **Chain Rules** tab.
 4. Click on an existing rule to view its configuration.
 5. Modify the rule as needed.
 6. Click **UPDATE** (top-right corner) to save changes.
@@ -10,18 +10,46 @@
 
 ## Create Rules
 
-1. Go to the FM+ portal and log in to your account
-2. Go to SIM Box Module > Create Rules page
-3. On the *Create Rules page*, select the *Add Source* button
-4. Enter a Rule Name
-5. Select the rule *Window*
-6. Select the rule *Window* , window = The aggregation period in which the rule conditions will be applied to the selected data source."
-7. Select the *Source*
-8. Add new conditions by selecting *+RULE*
-9. Group condition statements by selecting *+GROUP*
-10. Apply the *AND* or *OR* statement by using the main drop-down.
-11. To add in multiple data sources, use the *+ ADD SOURCE* button.
-12. To save the rule, use the *+ADD* button in the upper right corner of the page.
+1. Log in to **FM+ portal**.
+2. Navigate to **SIM Box Module > Rule Summary**.
+3. Select the **Chain Rules** tab.
+4. Click on **Create Rule**.
+5. Enter a **Rule Name**.
+6. Select a **Chain Rule Category**:
+
+#### **Infection Rate for Vouchers**
++ Choose **Rule Name**.
++ Set **Threshold** using operators (>=, >, <, <=) and a value.
++ Click **Add Conditions**.
+
+#### **Voucher Batch**
++ Choose **Rule Name**.
++ Set **Voucher Block Size** (+ or - value).
++ Select input source (**FM Rules** or **Client Detections**).
++ If **FM Rules** is selected, choose from the **Input Source** dropdown.
++ Click **Add Conditions**.
+
+#### **IMSI Batch**
++ Choose **Rule Name**.
++ Set **IMSI Block Size** (+ or - value).
++ Select input source (**FM Rules** or **Client Detections**).
++ If **FM Rules** is selected, choose from the **Input Source** dropdown.
++ Click **Add Conditions**.
+
+#### **Shared IMEI**
++ Choose **Rule Name**.
++ Set **IMSIs to IMEIs Ratio** (>=, >, <, <= value).
++ Select input source (**FM Rules** or **Client Detections**).
++ Click **Add Conditions**.
+
+#### **Chain Rule for Refining Suspects**
++ Choose **Rule Name**.
++ Select input source (**FM Rules** or **Client Detections**).
++ Click **Add Conditions**.
+
+
+7. To save the rule, click **+ADD** (top-right corner).
+
 ---
 
 ## Detection Downloader
