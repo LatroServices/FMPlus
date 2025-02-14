@@ -9,5 +9,8 @@ This section decribes definitions for terminology used across the FM+ system.
 | Multi-Source Rules | TBD |
 | Chain Rule | Type of rules where the output from one rule can be used as the input for another rule |
 | Infection Rate Rules | Number of suspicious cards relative to the total cards in a recharge batch |
+| Infection RAte Calculation | TBD |
 | Machine Learning Rules | TBD |
+| Rule Window | The aggregation period in which the rule conditions will be applied to the selected data source |
+
 
