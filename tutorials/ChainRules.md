@@ -1,63 +1,54 @@
-
-## Viewing & Editing Existing Rules
-1. Log in to the **FM+ portal**
-2. Navigate to **SIM Box Module > Rule Summary**.
-3. Select **Chain Rules** tab.
-4. Click on an existing rule to view its configuration.
-5. Modify the rule as needed.
-6. Click **UPDATE** (top-right corner) to save changes.
-
-
-## Create Rules
-
+## Creating Chain Rules
 1. Log in to **FM+ portal**.
 2. Navigate to **SIM Box Module > Rule Summary**.
 3. Select the **Chain Rules** tab.
 4. Click on **Create Rule**.
 5. Enter a **Rule Name**.
-6. Select a **Chain Rule Category**:
+6. Select the desired **Chain Rule Category**:
+  a) Infection Rate for Vouchers - definition
+  B) Voucher Batch - definition
+  c) IMSI Batch - definition
+  d) Shared IMEI - definition
+  e) Chain Rule for Refining Suspects - definition
+7. See corresponding steps for each category in sections below
 
 #### **Infection Rate for Vouchers**
-+ Choose **Rule Name**.
-+ Set **Threshold** using operators (>=, >, <, <=) and a value.
-+ Click **Add Conditions**.
+*Note: This category requires existing basic/multisource rules to be configured for **Infection Rate Calculation***
+1. After selecing the **Chain Rule Category** of **Infection Rate for Vouchers**
+2. Type the desired **Rule Name**.
+3. Set **Threshold** using operators (>=, >, <, <=) and a value.
+4. If desired to add in additional conditions to the rule, click **Add Conditions**, **Add Source**, and set the desired conditions.
+5. Click **+ADD** (top-right corner)
 
 #### **Voucher Batch**
-+ Choose **Rule Name**.
-+ Set **Voucher Block Size** (+ or - value).
-+ Select input source (**FM Rules** or **Client Detections**).
-+ If **FM Rules** is selected, choose from the **Input Source** dropdown.
-+ Click **Add Conditions**.
+1. After selecting the **Chain Rule Category** of **Voucher Batch**
+2. Type the desired **Rule Name**.
+3. Set **Voucher Block Size** (+ or - value).
+4. Select input source (**FM Rules** or **Client Detections**).
+5. If **FM Rules** is selected, choose from the **Input Source** dropdown.
+6. If desired to add in additional conditions to the rule, click **Add Conditions**, **Add Source**, and set the desired conditions.
+7. Click **+ADD** (top-right corner)
 
 #### **IMSI Batch**
-+ Choose **Rule Name**.
-+ Set **IMSI Block Size** (+ or - value).
-+ Select input source (**FM Rules** or **Client Detections**).
-+ If **FM Rules** is selected, choose from the **Input Source** dropdown.
-+ Click **Add Conditions**.
-
+1. After selecting the **Chain Rule Category** of **IMSI Batch**
+2. Type the desired **Rule Name**.
+3. Set **IMSI Block Size** (+ or - value).
+4. Select input source (**FM Rules** or **Client Detections**).
+5. If **FM Rules** is selected, choose from the **Input Source** dropdown.
+6. If desired to add in additional conditions to the rule, click **Add Conditions**, **Add Source**, and set the desired conditions.
+7. Click **+ADD** (top-right corner)
+   
 #### **Shared IMEI**
-+ Choose **Rule Name**.
-+ Set **IMSIs to IMEIs Ratio** (>=, >, <, <= value).
-+ Select input source (**FM Rules** or **Client Detections**).
-+ Click **Add Conditions**.
+1. After selecting the **Chain Rule Category** of **Shared IMEI**
+2. Type the desired **Rule Name**.
+3. Set **IMSIs to IMEIs Ratio** (>=, >, <, <= value).
+4. Select input source (**FM Rules** or **Client Detections**).
+6. If desired to add in additional conditions to the rule, click **Add Conditions**, **Add Source**, and set the desired conditions.
+7. Click **+ADD** (top-right corner)
 
 #### **Chain Rule for Refining Suspects**
-+ Choose **Rule Name**.
-+ Select input source (**FM Rules** or **Client Detections**).
-+ Click **Add Conditions**.
-
-
-7. To save the rule, click **+ADD** (top-right corner).
-
----
-
-## Detection Downloader
-To download detections from rules check:
-[Detection Downloader](../tutorials/DetectionDownloader.md)
-
----
-
-## Rules Reporting
-To enable reporting for any rule:
-- Toggle the **Reporting** option next to the rule in the **Rule Summary** page.
+1. After selecting the **Chain Rule Category** of **Chain Rule for Refining Suspects**
+2. Type the desired **Rule Name**.
+3. Select input source (**FM Rules** or **Client Detections**).
+6. If desired to add in additional conditions to the rule, click **Add Conditions**, **Add Source**, and set the desired conditions.
+7. Click **+ADD** (top-right corner)
