@@ -1,5 +1,4 @@
 ## Cell Plan
-The Cell Plan page 
 
 ### View Existing Cell Plan 
 1. Go to the FM+ portal and log in to your account.
