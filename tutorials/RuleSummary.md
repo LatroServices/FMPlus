@@ -2,9 +2,9 @@
 Under this page users can create/manage rules in the system and configure external reporting of detections to Versareporter. 
 
 ## Types Of Rules 
-- [Basic Rules]((./BasicRules.md))
-- [Multi Source Rules]((./MultiSourceRules.md))
-- [Chain Rules]((./ChainRules.md))
+- [Basic Rules]((./BasicRuleCreation.md))
+- [Multi Source Rules]((./BasicRuleCreation.md))
+- [Chain Rules]((./ChainRuleCreation.md))
 
 ## Viewing & Editing Existing Rules
 1. Log in to the **FM+ portal**
