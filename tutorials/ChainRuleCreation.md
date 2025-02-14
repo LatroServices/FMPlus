@@ -4,12 +4,12 @@
 3. Select the **Chain Rules** tab.
 4. Click on **Create Rule**.
 5. Enter a **Rule Name**.
-6. Select the desired **Chain Rule Category**:
-  a) Infection Rate for Vouchers - definition
-  B) Voucher Batch - definition
-  c) IMSI Batch - definition
-  d) Shared IMEI - definition
-  e) Chain Rule for Refining Suspects - definition
+6. Select the desired **Chain Rule Category** (see [definitions](../terminology/README.md)
+   + Infection Rate for Vouchers 
+   + Voucher Batch 
+   + IMSI Batch 
+   + Shared IMEI 
+   + Chain Rule for Refining Suspects 
 7. See corresponding steps for each category in sections below
 
 #### **Infection Rate for Vouchers**
