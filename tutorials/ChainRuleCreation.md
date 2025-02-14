@@ -4,7 +4,7 @@
 3. Select the **Chain Rules** tab.
 4. Click on **Create Rule**.
 5. Enter a **Rule Name**.
-6. Select the desired **Chain Rule Category** (see [definitions](../terminology/README.md)
+6. Select the desired **Chain Rule Category** (see [definitions](../terminology/README.md))
    + Infection Rate for Vouchers 
    + Voucher Batch 
    + IMSI Batch 
