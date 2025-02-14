@@ -5,6 +5,7 @@ Under this page users can create/manage rules in the system and configure extern
 - [Basic Rules]((./BasicRuleCreation.md))
 - [Multi Source Rules]((./BasicRuleCreation.md))
 - [Chain Rules]((./ChainRuleCreation.md))
+- Machine Learning Models (not editable via GUI)
 
 ## Viewing & Editing Existing Rules
 1. Log in to the **FM+ portal**
