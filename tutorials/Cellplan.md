@@ -13,7 +13,11 @@
 3. Click *upload Cell plan*
 4. Using the Upload Cell Plan page, click *Chose file* to upload new cell plan
 5. Ensure proper formatting of the uploaded cell plan:
-+ TBD
+   
+| GCI (Global Cell ID) | Latitude   | Longitude  | Azimuth | Beamwidth | Technology | Description  |
+|----------------------|-----------|------------|---------|-----------|------------|--------------|
+| 604:02:34:4701      | 30.176868 | -9.490063  | 20      | 63        | 2G         | AAM-1001-2G  |
+
 7. After selecting a file, view status notifications to confirm the file was uploaded successfully
 8. Note that uploading a new cell plan will clear out/override any existing cell plans.
 
