@@ -8,13 +8,13 @@ While Machine Learning (ML) models are configured on the backend of the system, 
 
 ## About ML Graphs
 ### Overall Performance Graph
-Text
+Bar chart graph visualizes the classification of detections based on customer feedback into Fraud, False Positives, and Pending Feedback.
 
 ### Map
-Text
+Heatmap displays the geographical distribution of detections, highlighting areas with higher fraud activity.
 
 ### Fraud Type (As Per Customer Feedback) Graph
-Text
+Bar chart categorizes fraud types based on customer feedback, displaying the count of detections per fraud type.
 
 ### Accuracy Graph
-Text
+Line graph represents the detection accuracy percentage over time for both ML and Rules.
