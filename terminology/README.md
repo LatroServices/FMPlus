@@ -1,7 +1,6 @@
 # FM+ Terminology
 This section decribes definitions for terminology used across the FM+ system. 
 
-
 ## Types of Rules ##
 | Term | Definition |
 | --- | --- |
@@ -17,4 +16,5 @@ This section decribes definitions for terminology used across the FM+ system.
 | Machine Learning Rules | Data-driven rules that use ML models to detect patterns, anomalies, and fraud more accurately than static rule-based methods|
 | Rule Window | The aggregation period in which the rule conditions will be applied to the selected data source |
 
+--
 
