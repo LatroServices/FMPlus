@@ -2,6 +2,7 @@
 This section decribes definitions for terminology used across the FM+ system. 
 
 ## Types of Rules ##
+
 | Term | Definition |
 | --- | --- |
 | Basic Rules | Simple rule-based conditions applied to a single data source to detect fraud based on predefined thresholds|
