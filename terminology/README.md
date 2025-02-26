@@ -15,6 +15,3 @@ This section decribes definitions for terminology used across the FM+ system.
 | Chain Rule for Refining Suspects | Method used to narrow down suspect lists from machine learning models or external feeds by applying additional filters |
 | Machine Learning Rules | Data-driven rules that use ML models to detect patterns, anomalies, and fraud more accurately than static rule-based methods|
 | Rule Window | The aggregation period in which the rule conditions will be applied to the selected data source |
-
---
-
